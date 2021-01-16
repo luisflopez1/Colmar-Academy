@@ -19,7 +19,7 @@ main{
 	position: absolute;
 	top: 64px;
 }
-h1{
+h1.logo-type{
 	display: inline-block;
 	margin-top: 16px;
 	margin-bottom: 16px;
@@ -37,13 +37,19 @@ li{
 	background-color: lightgray;
 	padding: 32px 24px;
 	width: 100%;
+	box-sizing: border-box;
+	overflow: auto; 
+	
 }
 .hero img{
 	width: 60%;
 	padding-right: 24px;
+	vertical-align: middle;
 }
 .hero-text{
 	display: inline-block;
+	border: 1px solid white;
+	vertical-align: middle;
 }
 button{
 	padding: 8px 70px;
@@ -56,14 +62,25 @@ button{
 	background-color: white;
 	padding: 32px 24px;
 	width: 100%;
+	box-sizing: border-box;
+}
+
+.subhero img{
+	width: 60%;
 }
 .start-learning{
 	background-color: lightgray;
 	padding: 32px 24px;
 	width: 100%;
+	box-sizing: border-box;
 }
 .thesis-exhibit{
 	background-color: white;
 	padding: 32px 24px;
 	width: 100%;
+	box-sizing: border-box;
+}
+footer{
+	width: 100%;
+	box-sizing: border-box;
 }
