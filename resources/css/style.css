@@ -2,6 +2,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	font-family: 'raleway', sans-serif;
+	color: #2A364C;
 }
 h2{
 	font-size: 45px;
@@ -30,7 +31,7 @@ nav{
 	width: 100%;
 	position: fixed;
 	z-index: 2;
-	background: white;
+	background: #FFFEF2;
 	padding-left: 24px;
 	padding-right: 24px;
 
@@ -45,6 +46,7 @@ h1.logo-type{
 	display: inline-block;
 	margin-top: 16px;
 	margin-bottom: 16px;
+	font-weight: 200;
 }
 ul{
 	float: right;
@@ -58,11 +60,12 @@ li{
 	padding-left: 16px;
 }
 .hero{
-	background-color: lightgray;
+	background-color: #2B7138;
 	padding: 32px 24px;
 	width: 100%;
 	box-sizing: border-box;
-	overflow: auto; 
+	overflow: auto;
+	color: #FFFEF2;
 	
 }
 .hero img{
@@ -72,7 +75,6 @@ li{
 }
 .hero-text{
 	display: inline-block;
-	border: 1px solid white;
 	vertical-align: middle;
 	font-family: 'raleway',sans-serif;
 	font-weight: 400;
@@ -85,7 +87,7 @@ button{
 	width: 100%;
 	padding: 16px;
 	color: white;
-	background: gray;
+	background: #C1993E;
 	border:none;
 	border-radius: 0;
 	margin: 0 auto;
@@ -93,7 +95,7 @@ button{
 	font-size: 22px;
 }
 .subhero{
-	background-color: white;
+	background-color: #FFFEF2;
 	width: 100%;
 	box-sizing: border-box;
 	overflow: auto;
@@ -118,7 +120,7 @@ button{
 	padding: 16px;
 }
 .row:hover{
-	background-color: gray;
+	background-color: #E1EDF9;
 }
 .row .text{
 	box-sizing: border-box;
@@ -132,7 +134,7 @@ button{
 	height: auto;
 }
 .start-learning{
-	background-color: lightgray;
+	background-color: #E1EDF9;
 	padding: 32px 72px;
 	width: 100%;
 	box-sizing: border-box;
@@ -156,7 +158,7 @@ button{
 	padding: 0 24px 24px;
 }
 .thesis-exhibit{
-	background-color: white;
+	background-color: #FFFEF2;
 	padding: 0 24px;
 	width: 100%;
 	box-sizing: border-box;
@@ -166,7 +168,9 @@ footer{
 	width: 100%;
 	box-sizing: border-box;
 	height: 96px;
-	padding: 24px 24px 36px;
+	padding: 12px 24px 36px;
+	background-color: #2B7138;
+	color: #FFFEF2;
 }
 footer p,a{
 	display: inline-block;
