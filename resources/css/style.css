@@ -1,7 +1,27 @@
 html,body{
 	margin: 0;
 	padding: 0;
-	font-family: futura, sans-serif;
+	font-family: 'raleway', sans-serif;
+}
+h2{
+	font-size: 45px;
+	font-weight: 600;
+
+}
+h3{
+	font-size: 32px;
+	font-weight: 400;
+
+}
+h4{
+	font-size: 16px;
+
+}
+p{
+	font-weight: 200;
+}
+a{
+	text-decoration: none;
 }
 
 nav{
@@ -19,6 +39,8 @@ main{
 	position: absolute;
 	top: 64px;
 }
+.logo{
+}
 h1.logo-type{
 	display: inline-block;
 	margin-top: 16px;
@@ -28,6 +50,8 @@ ul{
 	float: right;
 	text-align: right;
 	display: inline-block;
+	padding: 22px;
+	margin: 0;
 }
 li{
 	display: inline-block;
@@ -50,29 +74,62 @@ li{
 	display: inline-block;
 	border: 1px solid white;
 	vertical-align: middle;
+	font-family: 'raleway',sans-serif;
+	font-weight: 400;
+}
+.type1 {font-family: 'Libre Baskerville', serif;
+font-size: 55px;
+
 }
 button{
-	padding: 8px 70px;
+	width: 100%;
+	padding: 16px;
 	color: white;
 	background: gray;
 	border:none;
 	border-radius: 0;
+	margin: 0 auto;
+	font-family: 'raleway' sans-serif;
+	font-size: 22px;
 }
 .subhero{
 	background-color: white;
-	padding: 32px 24px;
 	width: 100%;
 	box-sizing: border-box;
 	overflow: auto;
+	display: flex;
 }
-.subhero .left{
+ .left{
 	float: left;
-}
-.subhero .right{
-	float: left;
-	}
-.subhero img{
 	width: 60%;
+	padding: 32px 24px;
+}
+ .right{
+	float: left;
+	border-left: 1px solid lightgray;
+	display: inline-block;
+	width: 40%;
+	padding-top: 16px;
+}
+.subhero img{
+	width: 100%;
+}
+.row{
+	padding: 16px;
+}
+.row:hover{
+	background-color: gray;
+}
+.row .text{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 64%;
+	vertical-align: middle;
+}
+.row img{
+	width: 35%;
+	vertical-align: middle;
+	height: auto;
 }
 .start-learning{
 	background-color: lightgray;
@@ -85,20 +142,32 @@ button{
 }
 .card{
 	display: inline-block;
-	width: 30%;
+	width: 31%;
 	background: white;
 	margin: 16px;
+	height: 500px;
+	vertical-align: middle;
+
 }
 .card img{
 	width: 100%;
 }
+.card .text{
+	padding: 0 24px 24px;
+}
 .thesis-exhibit{
 	background-color: white;
-	padding: 32px 24px;
+	padding: 0 24px;
 	width: 100%;
 	box-sizing: border-box;
+	display: flex;
 }
 footer{
 	width: 100%;
 	box-sizing: border-box;
+	height: 96px;
+	padding: 24px 24px 36px;
 }
+footer p,a{
+	display: inline-block;
+	vertical-align: top;
