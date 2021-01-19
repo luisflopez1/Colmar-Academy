@@ -40,12 +40,16 @@ nav{
 	padding-right: 24px;
 
 }
+nav img{
+	vertical-align: middle;
+	display: none;
+}
 main{
 	position: absolute;
 	top: 64px;
 }
 .logo{
-	width: 45px;
+	width: 50px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -82,6 +86,8 @@ li{
 	vertical-align: middle;
 }
 .hero-text{
+	box-sizing: border-box;
+	width: 35%;
 	display: inline-block;
 	vertical-align: middle;
 	font-family: 'raleway',sans-serif;
@@ -126,7 +132,7 @@ button{
 	width: 100%;
 }
 .row{
-	padding: 16px;
+	padding: 0 60px;
 }
 .row:hover{
 	background-color: #E1EDF9;
@@ -134,13 +140,15 @@ button{
 .row .text{
 	box-sizing: border-box;
 	display: inline-block;
-	width: 64%;
 	vertical-align: middle;
 }
 .row img{
 	width: 35%;
 	vertical-align: middle;
 	height: auto;
+}
+.mobile-img{
+	display: none;
 }
 .start-learning{
 	background-color: #E1EDF9;
@@ -161,7 +169,7 @@ button{
 
 }
 .card:hover{
-	transform: scale(1.05);
+	transform: scale(1.02);
 
 }
 .card img{
@@ -202,6 +210,13 @@ footer p,a{
 
 @media screen and (max-width: 1375px)
 {
+	main{
+	position: absolute;
+	top: 160px;
+}
+h3{
+	font-size: 70px;
+}
 .hero img{
 	width: 100%;
 	padding: 0px;
@@ -209,21 +224,75 @@ footer p,a{
 h1.logo-type{
 	display: none;
 }
+nav{
+	display: flex;
+	justify-content: space-around;
+	height: 160px;
+}	
+.logo{
+	width: 80px;
+}
+
+nav img{
+	vertical-align: middle;
+	display: inline-block;
+	width: 80px;
+	margin: 0 auto;
+}
 ul{
 	display: none;
 }
+.type1{
+	font-size: 5em;
+}
+.hero-text{
+	box-sizing: border-box;
+	padding: 120px 60px;
+	width: 100%;
+}
+button{
+	width: 100%;
+	padding: 60px;
+	margin: 10px auto;
+	font-size: 70px;
+	}
+
  .left{
 	display: none;
+}
+.right{
+	width: 100%;
+}
+.row{
+}
+.row img{
+	display: none;
+}
+.row .mobile-img{
+	display: block;
+	width: 100%;
+}
+.start-learning{
+	padding: 120px 60px;
 }
 .card{
 	display: block;
 	width: 100%;
 	height: auto;
+	margin: 30px 0;
 }
 .card img{
 	display: none;
 }
-.text p{
+.card .text{
+	padding: 0;
+}
+.card h3{
+	padding: 16px 16px 24px 16px;
+	margin: 0;
+}
+.card .text p{
+
 	display: none;
 }
 .thesis-exhibit .left{
