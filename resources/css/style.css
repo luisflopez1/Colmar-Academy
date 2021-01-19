@@ -200,7 +200,7 @@ footer p,a{
 }
 
 
-@media screen and (max-width: 707px)
+@media screen and (max-width: 1375px)
 {
 .hero img{
 	width: 100%;
