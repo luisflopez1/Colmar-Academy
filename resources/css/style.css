@@ -193,7 +193,14 @@ footer p,a{
 }
 /*media queries*/
 
-@media screen and (max-width: 1396px)
+@media screen and (max-width: 1375px)
+{
+.hero img{
+	width: 40%;
+}
+
+
+@media screen and (max-width: 707px)
 {
 .hero img{
 	width: 100%;
@@ -203,6 +210,30 @@ h1.logo-type{
 	display: none;
 }
 ul{
+	display: none;
+}
+ .left{
+	display: none;
+}
+.card{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.card img{
+	display: none;
+}
+.text p{
+	display: none;
+}
+.thesis-exhibit .left{
+	display: block;
+	padding: 0;
+}
+.thesis-exhibit .left p{
+	display: none;
+}
+.thesis-exhibit .right{
 	display: none;
 }
 }
