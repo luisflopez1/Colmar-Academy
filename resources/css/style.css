@@ -216,16 +216,16 @@ footer p,a{
 	color: inherit;
 
 }
-/*media queries*/
+/*media query*/
 
-@media screen and (max-width: 1375px)
+@media only screen and (max-width: 1375px)
 {
 .hero img{
 	width: 40%;
 }
 
 
-@media screen and (max-width: 1000px)
+@media only screen and (max-width: 400px)
 {
 	main{
 	position: absolute;
