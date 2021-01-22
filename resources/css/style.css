@@ -132,7 +132,7 @@ button{
 	width: 100%;
 }
 .row{
-	padding: 0 60px;
+	padding: 16px;
 }
 .row:hover{
 	background-color: #E1EDF9;
@@ -141,8 +141,10 @@ button{
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: middle;
+	width: 64%;
 }
 .row img{
+	box-sizing: border-box;
 	width: 35%;
 	vertical-align: middle;
 	height: auto;
@@ -178,12 +180,27 @@ button{
 .card .text{
 	padding: 0 24px 24px;
 }
+.thesis-title h2{
+	width: 100%;
+	text-align: center;
+	background-color: #FFFEF2;
+	margin: 0px;
+	padding: 40px 0 30px;
+	border-bottom: 1px solid lightgray;
+}
+
 .thesis-exhibit{
 	background-color: #FFFEF2;
 	padding: 0 24px;
 	width: 100%;
 	box-sizing: border-box;
 	display: flex;
+}
+.thesis .left{
+	padding-top: 16px;
+}
+video{
+	width: 100%;
 }
 footer{
 	width: 100%;
@@ -208,15 +225,25 @@ footer p,a{
 }
 
 
-@media screen and (max-width: 1375px)
+@media screen and (max-width: 1000px)
 {
 	main{
 	position: absolute;
 	top: 160px;
 }
-h3{
-	font-size: 70px;
+h2{
+	font-size: 80px;
 }
+h3{
+	font-size: 55px;
+	margin-bottom: 48px;
+}
+p,a{
+	font-size: 42px;
+	margin-bottom: 46px;
+}
+
+
 .hero img{
 	width: 100%;
 	padding: 0px;
@@ -262,18 +289,30 @@ button{
 }
 .right{
 	width: 100%;
+	padding-bottom: 60px;
+	padding-top: 0;
+
 }
-.row{
+.row{ 
+	padding: 0 60px;
 }
 .row img{
 	display: none;
 }
+.row .text{
+	width: 100%;
+}
 .row .mobile-img{
 	display: block;
 	width: 100%;
+	margin-top: 75px;
 }
 .start-learning{
-	padding: 120px 60px;
+	padding: 0 60px 120px;
+}
+.start-learning h2{
+	padding: 40px 0 15px;
+	margin: 0;
 }
 .card{
 	display: block;
@@ -295,15 +334,26 @@ button{
 
 	display: none;
 }
+.thesis-exhibit{
+	padding: 0;
+}
 .thesis-exhibit .left{
 	display: block;
 	padding: 0;
+	width: 100%;
 }
-.thesis-exhibit .left p{
+.thesis-exhibit h3, .thesis-exhibit p{
 	display: none;
 }
 .thesis-exhibit .right{
 	display: none;
+}
+footer{
+	height: 173px;
+	padding: 12px 60px 36px;
+}
+footer p{
+	margin-top: 65px;
 }
 }
 
